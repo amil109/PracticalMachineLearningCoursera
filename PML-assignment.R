@@ -68,3 +68,4 @@ pmlfinaltest <- pmlfinaldata[,!(names(pmlfinaldata) %in%
                           "num_window","X"))]
 
 submitpred <- predict(finalmod, pmlfinaltest)
+answers <- as.vector(submitpred)
