@@ -3,7 +3,7 @@
 
 Code used to decide on the model selected for prediction of the dumbell lift type ("classe" variable in the data set) can be found in the github repository below:
 
-[INSERT LINK TO YOUR R CODE]
+https://github.com/amil109/PracticalMachineLearningCoursera/blob/master/PML-assignment.R
 
 In order to select the model, I first checked which columns contained values in the test set (without looking at what the valid values were), and filtered the data in the training set to include only these values, as including any parameters in the model that are null in the target data does not make sense.
 
